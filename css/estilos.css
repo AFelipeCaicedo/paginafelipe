@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    padding: 2rem;
+}
+.caja{
+    display: flex;
+
+} 
+.ps{
+    background-color:aquamarine ;
+    height: 10vh;
+}
+.ai{
+    background-color:rgb(213, 224, 10) ;
+    height: 10vh;
+}
+.programas{
+    margin-top: 5vh;
+}
+.titulo{
+    margin-bottom: 2vh;
+    background-color: #153B64 
+}
+.iconos1{
+    margin-top: 9vh;
+}
+.numero{
+    margin-top: 3vh;
+}
+.titulo1{
+    margin-bottom: 1vh;
+    background-color: #153B64 
+}
+.facultades{
+height:30vh;
+
+text-align: center;
+}
+.facultades1{
+    height: 30vh;
+   
+    text-align: center;
+   
+    }
+.facul{
+   
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #153B64 
+}    
+h1{
+    color: white;
+}
