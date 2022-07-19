@@ -3,10 +3,13 @@
 }
 body{
     margin: auto;
-    padding: 2rem;
+    
 }
 .caja{
-    display: flex;
+
+    text-align: center;
+    background-color: black;
+    width: 100%;
 
 } 
 .ps{
@@ -31,8 +34,8 @@ body{
     margin-top: 3vh;
 }
 .titulo1{
-    margin-bottom: 1vh;
-    background-color: #153B64 
+    margin-bottom: 5vh;
+    background-color:#E1AB10 
 }
 .facultades{
 height:30vh;
@@ -40,9 +43,9 @@ height:30vh;
 text-align: center;
 }
 .facultades1{
-    height: 30vh;
+
    
-    text-align: center;
+  
    
     }
 .facul{
@@ -53,4 +56,185 @@ text-align: center;
 }    
 h1{
     color: white;
+    text-align: center;
+}
+.video{
+    margin-top:1vh;
+   text-align: center;
+   height: 70vh;
+   margin-bottom: 1vh;
+}
+
+.mensaje{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #E1AB10
+    
+} 
+.mensajetex{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+} 
+.contactos{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    background-color: #153B64
+     
+}
+.contactos1{
+    background-color: #153B64;
+    height: 27vh;
+    justify-content: center;
+}
+h3{
+    color: white;
+}
+.iconos{
+    text-align: center;
+    margin-top: 1vh;
+    background-color: #153B64;
+    height: 20vh;
+}
+.proyectos{
+    background-color: #153B64;
+    height:12vh;
+    text-align: left;
+}
+.button {
+    background-color: #E1AB10;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {background-color: #153B64}
+.sobremi1{
+    background-color: #E1AB10;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .laboral{
+
+  
+
+  }
+  .trabajos{
+    background-color: #153B64;
+  }
+  #uno{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    animation-duration: 1s;
+    margin-top: 5vh;
+    margin-left: 60vh;
+}
+#dos{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    animation-duration: 2s;
+    margin-top: 5vh;
+    margin-left: 60vh;
+}
+#tres{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    animation-duration: 2s;
+    margin-top: 5vh;
+    margin-left: 60vh;
+}
+#cuatro{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    animation-duration: 2s;
+    margin-top: 5vh;
+    margin-left: 60vh;
+}
+.foto{
+    background-color: #E1AB10;
+    height: 80vh;
+
+}
+.yo{
+   margin-top: 10vh;
+  
+}
+.slogan{
+    background-color: white;
+    
+}
+.foto1{
+
+}
+.academico{
+ 
+  
+   
+}
+.academico1{
+    background-color: #E1AB10;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+h5{
+    margin-top: 3vh;
+}
+.trabajos{
+    background-color: #E1AB10;
+    height: 14vh;
+
+}
+.trabajos1{
+    background-color: #153B64;
+    height: 7vh;
+}
+.trabajos2{
+    background-color:blueviolet;
+    height: 7vh;
+}
+.final{
+    background-color: black;
+    height: 15vh;
+}
+.blandas{
+    text-align: center;
+}
+.vol{
+    text-align: right;
+}
+.flip{
+    text-align: center;
+    height: 100vh;
+}
+.libro{
+   margin-top: 10vh;
+   text-align: center;
+}
+.marcas{
+    margin-top:2vh;
+    text-align: center;
+    margin-bottom:2vh;
+    background-color:#E1AB10 ;
+}
+.pd{
+    background-color: #153B64;
 }
