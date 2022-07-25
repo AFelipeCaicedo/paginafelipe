@@ -21,11 +21,11 @@ body{
     height: 10vh;
 }
 .programas{
-    margin-top: 5vh;
+    margin-top: vh;
 }
 .titulo{
     margin-bottom: 2vh;
-    background-color: #153B64 
+    background-color: #E1AB10
 }
 .iconos1{
     margin-top: 9vh;
@@ -51,8 +51,8 @@ text-align: center;
 .facul{
    
     margin-top: 5vh;
-    margin-bottom: 5vh;
-    background-color: #153B64 
+    margin-bottom: vh;
+    background-color: #E1AB10 
 }    
 h1{
     color: white;
@@ -63,6 +63,7 @@ h1{
    text-align: center;
    height: 70vh;
    margin-bottom: 1vh;
+   background-color: #153B64;
 }
 
 .mensaje{
@@ -82,8 +83,7 @@ h1{
      
 }
 .contactos1{
-    background-color: #153B64;
-    height: 27vh;
+    height: 21vh;
     justify-content: center;
 }
 h3{
@@ -91,9 +91,9 @@ h3{
 }
 .iconos{
     text-align: center;
-    margin-top: 1vh;
-    background-color: #153B64;
-    height: 20vh;
+    margin-top: 2vh;
+    background-color: #000000;
+    height:15vh;
 }
 .proyectos{
     background-color: #153B64;
@@ -175,7 +175,7 @@ h3{
 
 }
 .yo{
-   margin-top: 10vh;
+   margin-top: 5vh;
   
 }
 .slogan{
@@ -186,6 +186,7 @@ h3{
 
 }
 .academico{
+    text-align: left;
  
   
    
@@ -213,7 +214,8 @@ h5{
 }
 .final{
     background-color: black;
-    height: 15vh;
+    height: 10vh;
+   
 }
 .blandas{
     text-align: center;
@@ -238,3 +240,16 @@ h5{
 .pd{
     background-color: #153B64;
 }
+.piezas{
+    background-color: #E1AB10;
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
+  .ab{
+    margin-top: 2vh;
+  }

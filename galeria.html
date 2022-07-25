@@ -12,6 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <title>Galería</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
         </div>
     </div>
     <div class="container-fluid"> 
-    <div class="row mensaje">
+    <div class="row mensaje wow animate__animated animate__bounce animate__fadeInRight">
         <h1 style="text-align: center">Trabajos recientes</h1>
     </div>
   
@@ -46,7 +48,7 @@
     </div>
 
  
-<div class="row marcas">
+<div class="row marcas wow animate__animated animate__bounce animate__fadeInRight">
   <div class="col-12 marcas">
     <h2 style="color: white">Marcas desarrolladas</h2>
   </div>
@@ -149,7 +151,7 @@
     </button>
   </div>
   <div class="container-fluid"> 
-  <div class="row marcas">
+  <!-- <div class="row marcas">
     <div class="col-12 marcas">
       <h2 style="color: white">Piezas gráficas</h2>
     </div>
@@ -166,31 +168,127 @@
       <div class="col-4 pd">
         <h2 style="color:white">Desarrollo de posters</h2>
       </div>
+  </div> -->
+    <div class="row piezas wow animate__animated animate__bounce animate__fadeInRight">
+      <div class="col-12">
+        <h1>Piezas graficas</h1>
+      </div>
+    </div>
+  <div id="carouselExampleCaptionss" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/galeria-01.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Diagramación para infografías  </h4>
+          <p  style="color: #000000"></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/galeria-02.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Diagramación para empaques </h4>
+          <p style="color: #000000"></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/galeria-03.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Diagramación para plegables  </h4>
+          <p style="color: #000000"></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionss" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
   </div>
-
-  
-
 
   <div class="container-fluid"> 
-    <div class="row mensaje">
-        <h1 style="text-align: left">Anécdotas</h1>
+    <div class="row mensaje wow animate__animated animate__bounce animate__fadeInRight">
+        <h1 style="text-align: left">Fotografía </h1>
     </div>
+
   </div>
+  <div id="carouselExampleCaptionsss" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptionsss" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptionsss" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptionsss" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/galeria-05.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Foto producto </h4>
+          <p  style="color: #000000"></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/galeria-06.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Foto producto  </h4>
+          <p style="color: #000000"></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/galeria-07.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 style="color: #000000">Edición fotografiada bajo conceptos de composición  </h4>
+          <p style="color: #000000"></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptionsss" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptionsss" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+
+    <div class="row mensaje wow animate__animated animate__bounce animate__fadeInRight">
+        <h1 style="text-align: left">Ilustración analógica </h1>
+      </div>
+        <div clas="row wow animate__animated animate__bounce animate__fadeInRight">
+        <div class="col-10 caja">
+          <img src="imagenes/galeria-04.jpg" alt="" class="animate__animated animate__lightSpeedInRight" width="100%"> -->
+        </div>
+    </div>
   
-  <div class="row facultades1">
+  <!-- <div class="row facultades1">
     <div class="col-lg-12">
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit velit laboriosam repellat fugit dolore molestias quis tempora. Eaque, inventore voluptatem perspiciatis officiis sint corporis reiciendis, nesciunt tenetur voluptatibus harum omnis?
         </p>
     </div>
-  </div> 
+  </div>  -->
   
 </div>
 <div class="container-fluid"> 
-<div class="row final"></div>
+<div class="row final">
+  <h3 style="text-align:center">Gracias</h3>
+</div>
 </div>
 
-  
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
 </body>
